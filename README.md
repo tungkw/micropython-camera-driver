@@ -1,5 +1,15 @@
 # micropython-camera-driver
 
+update for
+- [esp-idf](https://github.com/espressif/esp-idf) 5.1 
+  - 8fc8f3f47997aadba21facabc66004c1d22de181
+- [micropython](https://github.com/micropython/micropython) 
+  - 516385c4ccbb1f7fa9dbd37a44ed8ae33dcf1942
+- [esp32-camera](https://github.com/espressif/esp32-camera) 
+  - efe711df9a348c56e56e5d7b8961836d94a0f9c1
+
+---
+
 This repository adds camera (OV2640) support to MicroPython for the ESP32 family.
 
 **NEW**: The camera uses now the PSRAM. Thus, you are able to take photos with more resolution. The standard mode is without PSRAM you can activate that using the argument `fb_location=camera.PSRAM`. Thanks @mocleiri for the [info and the MicroPython PR](https://github.com/lemariva/micropython-camera-driver/issues/32#issuecomment-1027613157).
